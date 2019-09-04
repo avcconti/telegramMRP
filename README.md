@@ -1,5 +1,5 @@
 # telegramMRP
-Telegram Message Read Processor
+Telegram Message Run Processor
 
 ## Getting Started
 
@@ -73,4 +73,6 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 See also the list of [contributors](https://github.com/BrainSINS/Analytics) who participated in this project.
 
 ## License
+
+GPL 3.0
 
