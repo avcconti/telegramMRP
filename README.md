@@ -17,7 +17,7 @@ These instructions will get you a copy of the project up and running on your loc
 	docker run hello-world
 	```
 
-4. Create a bot with instructions from [Telegram API Bot](https://core.telegram.org/bots) and note down the `key`, you will need it for the `config.php` file.
+4. Create a bot with instructions from [Telegram API Bot](https://core.telegram.org/bots) and note down the `key`, you will need it for the `config.php` file. Also create a group or channel and add the bot as an admin. In order to obtain the `channel_id`for the `config.php`file, follow [these instructions](https://github.com/GabrielRF/telegram-id).
 
 ### Installing
 

@@ -1,18 +1,18 @@
 <?php
 error_reporting(E_ALL);
 ini_set('display_errors', 'On');
-require "Telegram.php";
-include "config.php";
 include "vendor/autoload.php";
+require "libraries/Telegram.php";
+include "config.php";
 
-$envData=$envData["dev"];//set env
+$envData=$envData["dev"];//set env [dev|pro]
 
 //if messsage file not found, then exit
-if(count($argv)<2){
-    echo "No file found".PHP_EOL;
+$message=@file_get_contents($argv[1]);
+if(!$message){
+    echo "Message file not found.".PHP_EOL;
     exit;
 }
-$message = file_get_contents($argv[1]);
 /*
 Send message
  */
