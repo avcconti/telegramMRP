@@ -1,0 +1,10 @@
+{
+    "name": "conti/telegram-mrp",
+    "authors": [
+        {
+            "name": "Andrés Velasco",
+            "email": "avc.conti@gmail.com"
+        }
+    ],
+    "require": {}
+}
