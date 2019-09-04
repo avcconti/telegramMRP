@@ -1,5 +1,5 @@
 # telegramMRP
-Telegram Message Run Processor
+Telegram Message Run Processor will allow you to send messages to a channel or group through a bot with light-markdown format.
 
 ## Getting Started
 
