@@ -19,7 +19,7 @@ class TelegramClient{
 		));
 
 		$response = curl_exec($curl);
-		$err = curl_error($curl);var_dump($err);
+		$err = curl_error($curl);
 		curl_close($curl);
 		return $response;
 	}
